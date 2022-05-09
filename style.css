@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: #0b172a;
+}
+
+#information {
+    color: white;
+}
+
+.virtual_keyboard {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.textarea {
+    margin-left: 4px;
+    width: 790px;
+    margin-top: 20px;
+}
+
+.keyboard {
+    background-color: rgb(54, 30, 172);
+    padding: 10px;
+}
+
+.container {
+    margin-top: 5px;
+}
+
+.line_1,
+.line_2,
+.line_3,
+.line_4,
+.line_5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin: 0;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(56, 145, 234);
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+.buttons-fixed,
+.buttons-pressed {
+    background-color: #5ad66f;
+    color: #fffff0;
+    font-weight: bold;
+    border: 1px solid #2835e7;
+}
+
+
+.buttons[data-button-type="Backspace"] {
+    width: 125px;
+}
+
+.buttons[data-button-type="ShiftLeft"] {
+    width: 175px;
+}
+
+.buttons[data-button-type="Enter"] {
+    width: 125px;
+}
+
+.buttons[data-button-type="CapsLock"] {
+    width: 100px;
+}
+
+.buttons[data-button-type="ControlLeft"],
+.buttons[data-button-type="Tab"],
+.buttons[data-button-type="ControlRight"] {
+    width: 75px;
+}
+
+.buttons[data-button-type="Space"] {
+    width: 325px;
+}
